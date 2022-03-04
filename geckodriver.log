@@ -1,0 +1,8 @@
+1646423209132	geckodriver	INFO	Listening on 127.0.0.1:52316
+1646423212203	mozrunner::runner	INFO	Running command: "C:\\Users\\tbresee\\Anaconda3\\Library\\bin\\firefox.exe" "--marionette" "--headless" "-no-remote" "-profile" "C:\\Users\\tbresee\\AppData\\Local\\Temp\\rust_mozprofile9X2UAM"
+*** You are running in headless mode.
+1646423212933	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tbresee\\AppData\\Local\\Temp\\rust_mozprofile9X2UAM\\search.json.mozlz4", (void 0)))
+1646423214003	Marionette	INFO	Listening on port 52327
+1646423214450	RemoteAgent	WARN	TLS certificate errors will be ignored for this session

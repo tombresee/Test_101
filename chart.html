@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.8.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+<div class="vega-visualization" id="vega-visualization-483de8e1b9de46989374fa0cc918a7ca"></div>
+<script type="text/javascript">
+  const spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": "circle", "encoding": {"x": {"type": "quantitative", "field": "Rotten_Tomatoes_Rating"}, "y": {"type": "quantitative", "field": "IMDB_Rating"}}, "selection": {"selector016": {"type": "single", "on": "mouseover", "nearest": true, "empty": "none"}, "selector017": {"type": "multi", "empty": "none"}}}, {"mark": {"type": "point", "size": 100, "stroke": "firebrick", "strokeWidth": 1}, "encoding": {"x": {"type": "quantitative", "field": "Rotten_Tomatoes_Rating"}, "y": {"type": "quantitative", "field": "IMDB_Rating"}}, "transform": [{"filter": {"selection": {"or": ["selector016", "selector017"]}}}]}, {"mark": {"type": "text", "align": "right", "dx": 4, "dy": -8, "stroke": "white", "strokeWidth": 2}, "encoding": {"text": {"type": "nominal", "field": "Title"}, "x": {"type": "quantitative", "field": "Rotten_Tomatoes_Rating"}, "y": {"type": "quantitative", "field": "IMDB_Rating"}}, "transform": [{"filter": {"selection": {"or": ["selector016", "selector017"]}}}]}, {"mark": {"type": "text", "align": "right", "dx": 4, "dy": -8}, "encoding": {"text": {"type": "nominal", "field": "Title"}, "x": {"type": "quantitative", "field": "Rotten_Tomatoes_Rating"}, "y": {"type": "quantitative", "field": "IMDB_Rating"}}, "transform": [{"filter": {"selection": {"or": ["selector016", "selector017"]}}}]}], "data": {"url": "https://cdn.jsdelivr.net/npm/vega-datasets@1/data/movies.json"}, "height": 450, "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json"};
+  const embedOpt = {};
+  vegaEmbed('#vega-visualization-483de8e1b9de46989374fa0cc918a7ca', spec, embedOpt).catch(console.error);
+</script>
+</body>
+</html>
